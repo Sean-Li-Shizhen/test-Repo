@@ -16,7 +16,7 @@ int main(){
     string output{};
 }
 
-string readable_word(string &word, int length){
+void readable_word(string &word, int length){
     if(word.length()==length){
         return;
     }
